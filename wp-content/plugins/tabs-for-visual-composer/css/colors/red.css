@@ -1,0 +1,74 @@
+.pricing-style1 .badge, 
+.pricing-style1 .pricing-plan:hover .p-button:hover, 
+.pricing-style2 .pricing-plan:hover .p-button a:hover, 
+.pricing-style3 .pricing-plan:hover, 
+.pricing-style3 .pricing-plan.featured, 
+.pricing-style4 .featured.pricing-plan .pricing-head .price, 
+.pricing-style4 .pricing-plan.featured .pricing-footer .p-button, 
+.pricing-style5 .pricing-plan:hover .pricing-head .price, 
+.pricing-style5 .pricing-plan.featured .pricing-head .price, 
+.pricing-style5 .pricing-plan .pricing-footer .p-button:hover, 
+.pricing-style6 .pricing-head .price,  
+.pricing-style6 .pricing-footer .p-button, 
+.pricing-style6 .pricing-plan.featured, 
+.pricing-style7 .pricing-plan:hover .pricing-head .price, 
+.pricing-style7 .pricing-plan.featured .pricing-head .price, 
+.pricing-style7 .pricing-plan .pricing-footer .p-button:hover, 
+.pricing-style8 .pricing-plan.featured .pricing-head, 
+.pricing-style8 .pricing-plan:hover .pricing-head, 
+.pricing-style8 .pricing-plan.featured .pricing-footer .p-button, 
+.pricing-style8 .pricing-plan:hover .pricing-footer .p-button, 
+.pricing-style11 .pricing-plan:hover .name:before, 
+.pricing-style11 .pricing-plan.featured .name:before {
+	background: #ff5252;
+}
+.pricing-style1 .pricing-plan.featured .p-button, 
+.pricing-style1 .pricing-plan:hover .p-button, 
+.pricing-style1 .pricing-plan:hover .pricing-head span.value, 
+.pricing-style1 .pricing-plan.featured .pricing-head span.value, 
+.pricing-style2 .pricing-plan:hover .price, 
+.pricing-style2 .featured .price, 
+.pricing-style2 .pricing-plan:hover .p-button a, 
+.pricing-style2 .featured .p-button a, 
+.pricing-style5 .pricing-plan:hover .p-button, 
+.pricing-style5 .pricing-plan.featured .p-button, 
+.pricing-style6 .pricing-plan.featured .pricing-head .price, 
+.pricing-style7 .pricing-plan:hover .p-button, 
+.pricing-style7 .pricing-plan.featured .p-button, 
+.pricing-style9 .pricing-plan:hover .p-button, 
+.pricing-style9 .pricing-plan.featured .p-button, 
+.pricing-style10 .featured a.p-button, 
+.pricing-style10 .pricing-plan:hover a.p-button, 
+.pricing-style11 .pricing-plan:hover .p-button, 
+.pricing-style11 .pricing-plan.featured .p-button {
+	color: #ff5252;
+}
+.pricing-style1 .pricing-plan.featured .p-button, 
+.pricing-style1 .pricing-plan:hover .p-button, 
+.pricing-style2 .pricing-plan:hover .p-button a, 
+.pricing-style2 .featured .p-button a, 
+.pricing-style5 .pricing-plan:hover .pricing-footer .p-button, 
+.pricing-style5 .pricing-plan.featured .pricing-footer .p-button, 
+.pricing-style7 .pricing-plan:hover .p-button, 
+.pricing-style7 .pricing-plan.featured .p-button, 
+.pricing-style9 .pricing-plan:hover .p-button,
+.pricing-style9 .pricing-plan.featured .p-button, 
+.pricing-style10 .pricing-plan.featured, 
+.pricing-style10 .pricing-plan:hover, 
+.pricing-style10 .featured a.p-button, 
+.pricing-style10 .pricing-plan:hover a.p-button, 
+.pricing-style11 .pricing-plan:hover .p-button, 
+.pricing-style11 .pricing-plan.featured .p-button {
+	border-color: #ff5252;
+}
+.pricing-style4 .pricing-plan.featured .pricing-footer .p-button:hover, 
+.pricing-style6 .pricing-footer .p-button:hover {
+	background: #fd6e6e;
+}
+.pricing-style4 .pricing-plan.featured {
+    -webkit-box-shadow: 0px -14px #ff5252;
+    box-shadow: 0px -14px #ff5252;
+}
+
+.pricing-style10 .pricing-plan.featured::before, 
+.pricing-style10 .pricing-plan:hover::before {border-color: #ff5252;border-right: 20px solid transparent;}

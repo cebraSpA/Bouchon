@@ -1,0 +1,2294 @@
+/*
+ Theme Name:   Fruitshop Child
+ Theme URI:    http://7uptheme.com/wordpress/
+ Description:  Storelike Child Theme
+ Author:       The 7up WordPress team
+ Author URI:   http://themeforest.net/user/7-up
+ Template:     fruitshop
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         e-commerce, blog, grid-layout, two-columns, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments
+ Text Domain:  fruitshop
+*/
+
+/********************* Content Positioning *********************/
+
+** {
+    box-sizing: border-box!important;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif!important;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+.header,
+.description_tab active,
+.reviews_tab {
+    background: transparent!important;
+}
+
+#header .header .container {
+    max-width: 100%!important;
+    padding: 0px!important;
+    z-index: 1;
+}
+
+.mb-visual-temlpate {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.wrap > .main-wrapper {
+    margin-top: -30px!important;
+}
+.mapa-batuco, .links-ecommerce-cat, .fa.fa-shopping-basket, .mb-cart-total .woocommerce-Price-amount.amount {
+    color: white!important;
+}
+#tab-title-description,
+#tab-title-s7upf_custom_tab_0,
+#tab-title-s7upf_custom_tab_1 {
+    background: transparent!important;
+}
+
+#responsive-menu-container #responsive-menu-wrapper {
+    margin-top: 30px;
+    z-index:1;
+}
+
+.top-mid-bottle-home {
+    margin-top:15% ;
+}
+
+.item-product.item-product-grid {
+    z-index:0!important;
+}
+
+.no-padding {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.top-centrar {
+   padding-top: 250px!important;
+   top: 31%;
+}
+
+.top-vinos-derecha {
+   top: 29%;
+   left: -5%;
+}
+
+.tc_team-member h3, .tc_team-member p{
+    color: white !important;
+}
+
+.tc_overlay{
+    
+    background: black;
+}
+
+.top-mid-conta {
+   padding-top: 350px!important;
+   margin-left: 80px;
+   top: 31%;
+}
+
+.wp-cpl-theme-0 li.wp-cpl-odd {
+    background: transparent !important;
+}
+
+.adres-center{
+font-family: 'Montserrat', 'sans-serif' !important;
+ font-size: 12px    !important;
+padding-bottom: 100px !important;   
+}
+
+.top-mid {
+    top: 31%;
+}
+
+.top-mid-team {
+margin-top:5% ;
+}
+
+.top-mid-team-d {
+margin-top:10% ;
+}
+
+.nv-li-first, .nv-li, .nv-li-top {
+    list-style-type: none;
+}
+
+
+.nv-li-top a {
+	width: 80%; 
+	display: block; 
+	padding: 15px 0; 
+	font-size: 25px; 
+	text-align: center; 
+	font-weight: 200; 
+	color: white; 
+	text-decoration: none!important; 
+	border-bottom: 2px solid white; 
+	border-top: 2px solid white;
+}
+
+
+.nv-li-first a {
+	width: 80%; 
+	display: block; 
+	padding: 15px 0; 
+	font-size: 25px; 
+	text-align: center; 
+	font-weight: 200; 
+	color: white; 
+	text-decoration: none!important; 
+	border-bottom: 2px solid white;
+	border-top: 2px solid white; 
+}
+
+.nv-li-first a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color:black;
+    font-weight: 200;
+}
+
+.nv-li a {
+	width: 80%; 
+	display: block; 
+	padding: 15px 0; 
+	font-size: 25px; 
+	text-align: center; 
+	font-weight: 200; 
+	color: white; 
+	text-decoration: none!important; 
+	border-bottom: 2px solid white; 
+}
+
+.nv-li-top a:hover {
+    background: white!important;
+    color:black;
+    font-weight: 200;
+}
+
+.nv-li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color:black;
+    font-weight: 200;
+}
+
+.to-left-40 {
+    margin-left: -90px;
+}
+
+#responsive-menu-container {
+    width: 100%;
+}
+
+.content-up {
+    margin-top: -100px!important;
+}
+
+.logo-top {
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.banner-slider.bg-slider .banner-thumb img {
+    object-fit: cover!important;
+}
+
+.title120, .title18 { text-align: left!important;}
+
+.item-slider1 .banner-info {
+    width: 80%!important;
+}
+
+.ecommerce-section {
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: inherit;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
+.header {
+    max-height: 80px!important;
+}
+.responsive-menu-container {
+    width: 20%!important;
+}
+
+.wpb_wrapper p {
+    margin: 0!important;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+ background: #4B0082;
+ border: 2px white solid; 
+ font-size: 14px;
+ font-family: 'Montserrat', sans-serif!important;    
+ color:white;
+ display: inline-block;
+ padding: 10px 20px;
+    
+}
+
+.vc_separator.vc_sep_color_grey .vc_sep_line {
+    border-color: #494948!important;
+}
+
+.better-bg {
+    background-position: -220px!important;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover {
+    background: white;
+    border: 2px #4B0082 solid;
+    color: #4B0082;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+
+
+.pum-overlay *{
+   font-weight: 600;
+}
+
+div.wpcf7-validation-errors {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.bottom-buttons {
+    color: white!important;
+}
+
+.vinos-button {
+    background: transparent;
+    color: white!important;
+    margin-right: 10px; 
+    padding: 10px 10px;
+    display: inline-block;
+
+}
+.vinos-buttonco {
+    margin-right: 10px;
+    background: transparent;
+    color: white!important;
+    padding: 10px 10px;
+    border: 2px solid white;
+}
+
+.vinos-buttonco:hover {
+    margin-right: 10px;
+    background: #250041;
+    color: white!important;
+    padding: 10px 10px;
+}
+.social-button {
+    background: #4B0082; 
+    color: white!important; 
+    margin-right: 10px; 
+    padding: 10px 15px;
+}
+
+.bottom-buttons a:hover button {
+    background: #250041!important;
+}
+
+.top-bottle-cat {
+    margin-top: 15%!important;
+}
+
+
+.img-reserva, .img-espumantes, .img-iconos, .img-terroir, .img-otras {
+    display: none;
+}
+
+/* Boton para Descargar Fichas de Vinos */
+
+ 
+.menu_bar {
+	display:none;
+padding: 0px auto;
+	
+}
+ 
+ .submenu {
+         text-align: center!important;
+ }
+ 
+.booom {
+	width: 180px;
+	display: inline-block;
+
+}
+ 
+.booom nav { /* modifica el botton principal*/
+	background:transparent;
+	z-index:1000;
+	max-width: 1000px;
+	width:180px;
+    border: 2px solid white;
+    color: white!important;
+    text-align: center;
+}
+ 
+.booom nav ul {
+	list-style:none;
+	padding:0;
+	width:180px;
+   	margin:0px auto;
+}
+ 
+.booom nav ul li {
+	display:inline-block;
+	position: relative;
+    
+}
+ 
+
+.booom nav ul li:hover { /* modifica los submenus hover*/
+	background:#250041;
+	width: 180px;
+border-right:2px solid white;
+}
+ 
+.booom nav ul li a { /* Modifica los caracteres de la lista*/
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 10px;
+}
+ 
+.booom nav ul li a span {
+	margin:0px auto;
+    padding: 0px auto;
+ 
+
+}
+ 
+.booom nav ul li:hover .children {
+	display:block;
+	margin:0px auto;
+    padding: 0px auto;
+}
+ 
+.booom nav ul li .children {  /* modifica los elementos de la lista*/
+	display: none;
+	background:transparent;
+	position: absolute;
+	width: 180px;
+	z-index:1000;
+	margin:0px auto;
+    padding: 0px auto;
+}
+ 
+.booom nav ul li .children li {
+	display:block;
+	margin:0px auto;
+    padding: 0px auto;
+	overflow: hidden;
+	border-right:2px solid white;
+	border-left:2px solid white;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+ 
+.booom nav ul li .children li a {
+	display: block;
+	margin:0px auto;
+    padding: 0px auto;
+}
+ 
+.booom nav ul li .children li a span {
+	position: relative;
+	margin:0px auto;
+    padding: 0px auto;
+}
+ 
+.booom nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+ 
+ /* Fin */
+ 
+/********************* Woocommerce *********************/
+
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
+    background: white!important;
+}
+
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content .ui-slider-range {
+    background: #595959!important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background: transparent!important;
+}
+
+.woocommerce-cart-form {
+    padding: 5%;
+}
+
+.content-shop,
+.st-page-default {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-shop {
+    padding-top: 50px;
+}
+
+.detail-info {
+    padding: 0!important;
+}
+
+.wrap-qty-extra {
+    padding: 0!important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    background: transparent!important;
+}
+
+.active-class {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.active-class a {
+    font-family: inherit;
+    width:60%;
+    height: 100%;
+    color: #595959!important;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+    text-align: center;
+    background: white;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.active-class-vine  {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    color: white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+}
+.desactive-class-vine {
+    font-family: inherit;
+    width: 60%;
+    height: 100%;
+    background: white;
+    color: #595959!important;
+    border-bottom: 2px solid white;
+    padding: 15px 0;
+    display: inline-block;
+    padding: 15px 0;
+    transform: translateX(-50px);
+    font-family: inherit;
+    text-align: center;
+}
+
+.mapa-batuco {
+    color: white;
+    display:block;
+}
+
+.store-block-left-one {
+    height: 100%!important; 
+    background: url('http://104.152.168.39/~bouchon/nuevo/wp-content/uploads/2018/05/5ac.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height: 300px; 
+    color: white!important; 
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 20%;
+}
+
+.store-block-left-one:hover, .store-block-left-two:hover, .store-block-left-three:hover, .store-block-right-one:hover, .store-block-right-two:hover, .store-block-right-three:hover  {
+    border:2px solid white;
+}
+
+.store-block-left-two {
+    height: 100%!important; 
+    background: url('http://104.152.168.39/~bouchon/nuevo/wp-content/uploads/2018/05/5ae.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height: 300px; 
+    color: white!important; 
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 20%;
+}
+    
+.store-block-left-three {
+    height: 100%!important; 
+    background: url('http://104.152.168.39/~bouchon/nuevo/wp-content/uploads/2018/05/5ag.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height: 300px; 
+    color: white!important; 
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 20%;
+}
+    
+
+.store-block-right-one {
+    height: 300px;
+    background: url('http://104.152.168.39/~bouchon/nuevo/wp-content/uploads/2018/05/5ad.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: white!important; 
+    text-align: center;
+    padding-top: 20%;
+    padding-right: 20%;
+}
+
+.store-block-right-two {
+    height: 300px; 
+    background: url('http://104.152.168.39/~bouchon/nuevo/wp-content/uploads/2018/05/5af-2.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: white!important; 
+    text-align: center;
+    padding-top: 20%;
+    padding-right: 20%;
+}
+
+.store-block-right-three {
+    height: 300px; 
+    background: url('http://104.152.168.39/~bouchon/nuevo/wp-content/uploads/2018/05/5ah.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: white!important; 
+    text-align: center;
+    padding-top: 20%;
+    padding-right: 20%;
+}
+
+.store-block-left-one h2, .store-block-left-two h2, .store-block-left-three h2, .store-block-right-one h2, .store-block-right-two h2, .store-block-right-three h2 {
+    font-size: 36px!important;
+    font-weight: 500!important;
+}
+.section-text-vertical-leftc {
+    color: black;
+    position: relative;
+    border: 1px solid transparent;
+    padding: 0 10% 0 13%;
+    top: 36%;
+    font-size: 14px;
+   
+}
+
+.leftc {
+   
+    margin : 12% auto;
+  
+   
+}
+
+.leftr {
+   
+    margin : 30% auto;
+  
+   
+}
+
+
+#wp_category_post_list_itg-2{
+    border:1px solid #9a978c;
+    margin: 25px auto;
+    padding: 15px 15px;
+    
+}
+
+.widget .widget-title {
+    margin-left: 5% !important;
+}
+
+.thumb_lay a img{
+    width:  80px;
+    height: 80px;
+}
+
+.widget ul li a {
+    display: inline-block !important;
+
+    font-weight: 600 !important;
+}
+
+
+.wp-cpl-date  {
+    display:none!important;
+    font-size: 80% !important;
+}
+.botonform {
+    background: transparent;
+    border: 2px white solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+        font-family: 'Montserrat', sans-serif!important;
+}
+
+.botonform:hover {
+    background: white;
+    border: 2px white solid;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 600ms linear;
+    
+}
+
+.mapa-batuco:hover {
+    color: gray;
+}
+
+.links-ecommerce-cat {
+    display: block;
+    color: white;
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+
+.links-ecommerce-cat:hover {
+    color: #5959591;
+    text-decoration: bold;
+}
+
+#responsive-menu-container #responsive-menu, #responsive-menu-container #responsive-menu ul {
+    margin-top: 5%;
+}
+
+#responsive-menu-container {
+    background: rgba(0, 0, 0, 0.8)!important;
+}
+
+#responsive-menu-wrapper, #responsive-menu-container #responsive-menu-wrapper  {
+    background: transparent!important;
+}
+
+#responsive-menu-container #responsive-menu li.responsive-menu-item a {
+    background-color: transparent!important;
+    margin-bottom: 4px!important;
+}
+
+#responsive-menu-container #responsive-menu li.responsive-menu-item a:hover {
+    font-size:20px;
+}
+
+#responsive-menu-item-317 {
+    margin-top: 45px!important;
+}
+
+#responsive-menu-container #responsive-menu li.responsive-menu-item a:hover {
+    background-color: transparent!important;
+}
+
+#responsive-menu-container #responsive-menu > li.responsive-menu-item:first-child > a {
+    border-top:0px!important;
+
+}
+
+#responsive-menu-container #responsive-menu > li.responsive-menu-item:first-child > a:hover {
+    font-size: 16px;
+}
+
+#responsive-menu-container #responsive-menu li.responsive-menu-item a {
+    border-bottom: 0px!important;
+}
+
+#responsive-menu-container #responsive-menu li.responsive-menu-item .responsive-menu-item-link {
+}
+
+.border-square:hover {
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.zoomContainer, .description_tab.active {
+    z-index:0!important;
+}
+
+.responsive-menu-boring.is-active .responsive-menu-inner::after {
+    margin-top: -8px;
+}
+
+#customer_login {
+    padding: 0 5% 0 5%;
+}
+
+.on-image {
+    position:absolute;
+    color:#fff;
+    font-size:18px;
+    top:4px;
+    margin: 80% auto 0 3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.on-image a {
+    color:#fff;
+}
+
+.on-image h2, .on-image .title20, .blog-info h2, .blog-info .title20 {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    padding-top: 0px!important;
+}
+
+.on-image p {
+    display:none;
+}
+
+.on-image .blog-comment-date label {
+    margin: 0!important;
+}
+
+.on-image .whiter {
+    color: #fff;
+}
+.on-image .blog-social a {
+    margin-left: 0px!important;
+}
+.on-image .text-right {
+    text-align: left!important;
+}
+
+.scrolling-menu {
+    display: none;
+}
+    .no-scrolling {
+    display: none;
+}
+
+.no-paddings {
+    padding-left: 0px!important;
+}
+
+.complete-height {
+    height: calc(100vh - 1%)!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+    padding-left: 0%;
+    z-index: 0;
+    padding: 0;
+}
+
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-body {
+    border: 0!important;
+}
+
+.without-padding {
+    padding:0;
+}
+
+.mid-height {
+    height: 50vh!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+    padding-left: 0%;
+    z-index: 10;
+    padding: 0;
+}
+
+.tc-tabs-style1 {
+    width: 90%;
+    margin-left: 3%!important;
+    background-color: transparent!important;
+    color: white!important;
+    padding: 20px 0 20px 0!important;
+}
+
+.nav-tabs li, .tc-tabs-style1 .nav-tabs li a {
+    background: transparent!important;
+    color:white!important;
+    border: 2px solid white!important;
+}
+
+.nav-tabs>li>a {
+    margin-right: 0px!important;
+}
+
+.title-vinos {
+    margin-left: 3%!important;
+    display:block!important;
+}
+
+.woocommerce button.button.alt:hover, .shop-button:hover{
+    background: blue!important;
+}
+
+.top-mid-quince {
+    margin-top: 15%;
+}
+
+.top-mid-diez {
+    margin-top: 10%;
+}
+
+.banner-thumb a img {
+    height: calc(100vh + 32px)!important;
+}
+
+.shop-button {
+    display: none!important;
+}
+/********************* Footer *********************/
+
+.copyright-left,
+.copyright-right {
+    padding-top: 30px;
+}
+
+#footer {
+        padding-bottom: 20px;
+}
+
+.woocommerce div.product div.images img {
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.wpb_content_element {
+    margin-bottom: 0px!important;
+}
+
+.vinos-padding-top {
+    padding-top: 37%;
+}
+
+
+
+@media (min-width: 120px) and (max-width: 480px) {
+    
+    /********************* Header Home *********************/
+
+.header-home {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.home-menu-fixed {
+    width: 100%!important;
+    position: fixed;
+    margin-top: -20px;
+}
+
+.header-tienda-wrapper {
+    width: 95%!important;
+    margin: 20px auto 0 auto;
+}
+
+button#responsive-menu-button {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    float: right;
+    top: 8%!important;
+    background: transparent!important;
+}
+
+.responsive-menu-inner::before {
+    top: -10px!important;
+}
+
+.responsive-menu-inner::after {
+    top: 10px!important;
+}
+
+.logo-mobile {
+    max-width: 140px;
+    height: auto;
+}
+
+.first-section {
+    height: calc(100vh + 32px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+    padding-left: 0%;
+    z-index: 10;
+}
+
+.general-section {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+}
+
+/*********************Content Inside Sections *********************/
+
+.no-padding .col-sm-6 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+    .item-slider1 .banner-info{margin-top:40vh;}
+    
+   .copyright-left {
+        width: 49%;
+        float: left;
+    }
+    .copyright-right {
+        width: 49%;
+        float: left;
+        text-align: right;
+    }
+    .section-text-vertical-left {
+    color: white;
+    position: relative;
+    top: 36%;
+    border: 1px solid transparent;
+    padding: 0 10% 0 15%;
+}
+
+    .section-text-vertical-leftc {
+    color: black;
+    position: relative;
+   
+    border: 1px solid transparent;
+    padding: 0 10% 0 15%;
+     
+    top: 36%;
+   
+}
+
+.section-title-vertical-left {
+    color: white;
+    position: relative;
+    top: 55%;
+    font-weight: 800;
+    padding: 0 8% 0 16%;
+}
+
+.section-text-vertical-left p {
+    font-size: 12px;
+}
+
+.section-title {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.section-titlens {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 800;
+}
+
+
+.section-title-alone {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 800;
+    margin-top: -40px;
+}
+
+.section-text-vertical-right {
+    color: white;
+    position: relative;
+    top: 40%;
+    padding: 0 8% 0 0%;
+}
+
+.section-text-vertical-right-list {
+    color: white;
+    position: relative;
+    top: 40%;
+    padding: 0 8% 0 0;
+}
+
+.section-text-vertical-right p {
+    font-size: 12px;
+}
+
+.section-vertical-bottle {
+    color: white;
+    position: relative;
+    top: -100px;
+}
+
+.section-vertical-bottle img {
+     max-width: 110px!important;
+    max-height: auto;
+}
+
+.botle-center {
+    max-width: 120px!important;
+    max-height: auto;
+}
+.list-history {
+    font-family: inherit;
+    list-style-type: none;
+}
+
+.list-history_item {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.list-history_item_first {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+}
+
+.list-history_item_first a {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    color: white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+}
+
+.list-history_item_first a:hover {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    background: white;
+    color: #595959;
+    border-bottom: 2px solid white;
+    padding: 15px 0;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+
+.list-history_item a {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+}
+
+.list-history_item a:hover {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    background: white;
+    color: #595959;
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+    display: inline-block;
+    padding: 15px 0;
+    transform: translateX(-50px)
+}
+.social-menu-icons {
+     color: white;
+     font-size: 30px;
+     padding-left: 10px
+}
+
+.social-menu-icons:hover {
+     color: #3e134d;
+     font-size: 30px;
+     padding-left: 10px
+}
+
+.top-twenty {
+    top: 20%;
+}
+
+
+
+.top-mid-two {
+    top: 36%;
+}
+
+.top-mid-two-alone {
+    top: 47%;
+}
+
+.top-middle-tittle {
+    top: 46%;
+}
+.mini-cart1 .mini-cart-link {
+    background: transparent;
+    color: white!important;
+    margin-top: 100px;
+    display: block!important;
+    margin-right: 150px;
+}
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    
+    /********************* Header Home *********************/
+
+.header-home {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.home-menu-fixed {
+    width: 100%!important;
+    position: fixed;
+    margin-top: -20px;
+}
+
+.header-tienda-wrapper {
+    width: 95%!important;
+    margin: 20px auto 0 auto;
+}
+
+button#responsive-menu-button {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    float: right;
+    top: 3%!important;
+    background: transparent!important;
+}
+
+.responsive-menu-inner::before {
+    top: -10px!important;
+}
+
+.responsive-menu-inner::after {
+    top: 10px!important;
+}
+
+.logo-mobile {
+    max-width: 140px;
+    height: auto;
+}
+
+.first-section {
+    height: calc(100vh + 32px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+    padding-left: 0%;
+    z-index: 10;
+}
+
+.general-section {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+}
+
+/*********************Content Inside Sections *********************/
+
+.no-padding .col-sm-6 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+
+.no-paddings.wpb_column.column_container.col-sm-6.col-has-fill  {
+    padding-left: 0px!important;
+}
+
+    .item-slider1 .banner-info{margin-top:40vh;}
+    
+   .copyright-left {
+        width: 49%;
+        float: left;
+    }
+    .copyright-right {
+        width: 49%;
+        float: left;
+        text-align: right;
+    }
+    .section-text-vertical-left {
+    color: white;
+    position: relative;
+    top: 36%;
+    border: 1px solid transparent;
+    padding: 0 10% 0 15%;
+}
+
+.section-title-vertical-left {
+    color: white;
+    position: relative;
+    top: 55%;
+    font-weight: 800;
+    padding: 0 8% 0 16%;
+}
+
+.section-text-vertical-left p {
+    font-size: 12px;
+}
+
+.section-title {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.section-titlens {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 800;
+}
+
+
+.section-title-alone {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 800;
+    margin-top: -40px;
+}
+
+.section-text-vertical-right {
+    color: white;
+    position: relative;
+    top: 40%;
+    padding: 0 8% 0 0%;
+}
+
+.section-text-vertical-right-list {
+    color: white;
+    position: relative;
+    top: 40%;
+    padding: 0 8% 0 0;
+}
+
+.section-text-vertical-right p {
+    font-size: 12px;
+}
+
+.section-vertical-bottle {
+    color: white;
+    position: relative;
+    top: -150px;
+}
+
+.section-vertical-bottle img {
+     max-width: 110px!important;
+    max-height: auto;
+}
+
+.botle-center {
+    max-width: 120px!important;
+    max-height: auto;
+}
+.list-history {
+    font-family: inherit;
+    list-style-type: none;
+}
+
+.list-history_item {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.list-history_item_first {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+}
+
+.list-history_item_first a {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    color: white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+}
+
+.list-history_item_first a:hover {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    background: white;
+    color: #595959;
+    border-bottom: 2px solid white;
+    padding: 15px 0;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+
+.list-history_item a {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+}
+
+.list-history_item a:hover {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    background: white;
+    color: #595959;
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+    display: inline-block;
+    padding: 15px 0;
+}
+.social-menu-icons {
+     color: white;
+     font-size: 30px;
+     padding-left: 10px
+}
+
+.social-menu-icons:hover {
+     color: #3e134d;
+     font-size: 30px;
+     padding-left: 10px
+}
+
+.top-twenty {
+    top: 15%;
+}
+
+.top-mid {
+    top: 15%;
+}
+
+.top-mid-two {
+    top: 20%;
+}
+
+.top-mid-two-alone {
+    top: 47%;
+}
+
+.top-middle-tittle {
+    top: 46%;
+}
+.mini-cart1 .mini-cart-link {
+    background: transparent;
+    color: white!important;
+    margin-top: 100px;
+    display: block!important;
+    margin-right: 150px;
+}
+
+}
+
+@media (min-width: 768px) {
+    
+    /********************* Header Home *********************/
+
+.header-home {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.home-menu-fixed {
+    width: 100%!important;
+    position: fixed;
+}
+
+.header-tienda-wrapper {
+    width: 95%!important;
+    margin: 20px auto 0 auto;
+}
+
+.title18 {
+    width: 80%;
+}
+
+button#responsive-menu-button {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    float: right;
+    top: 4%!important;
+    background: transparent!important;
+}
+
+.responsive-menu-inner::before {
+    top: -10px!important;
+}
+
+.responsive-menu-inner::after {
+    top: 10px!important;
+}
+
+.logo-mobile {
+    max-width: 140px;
+    height: auto;
+}
+
+.first-section {
+    height: calc(100vh + 32px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+    padding-left: 0%;
+    z-index: 10;
+}
+
+.general-section {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+}
+
+/*********************Content Inside Sections *********************/
+
+.no-padding .col-sm-6 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+    .item-slider1 .banner-info{margin-top:40vh;}
+    
+   .copyright-left {
+        width: 49%;
+        float: left;
+    }
+    .copyright-right {
+        width: 49%;
+        float: left;
+        text-align: right;
+    }
+    .section-text-vertical-left {
+    color: white;
+    position: relative;
+    top: 36%;
+    border: 1px solid transparent;
+    padding: 0 10% 0 15%;
+}
+
+.section-title-vertical-left {
+    color: white;
+    position: relative;
+    top: 55%;
+    font-weight: 800;
+    padding: 0 8% 0 16%;
+}
+
+.section-text-vertical-left p {
+    font-size: 12px;
+}
+
+.section-title {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.section-titlens {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.section-title-alone {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 800;
+    margin-top: -40px;
+}
+
+.section-text-vertical-right {
+    color: white;
+    position: relative;
+    top: 40%;
+    padding: 0 8% 0 0%;
+}
+
+.section-text-vertical-right-list {
+    color: white;
+    position: relative;
+    top: 40%;
+    padding: 0 8% 0 0;
+}
+
+.section-text-vertical-right p {
+    font-size: 12px;
+}
+
+.section-vertical-bottle {
+    color: white;
+    position: relative;
+    top: -110px;
+}
+
+.section-vertical-bottle img {
+    max-width: 150px;
+    max-height: auto;
+}
+
+.botle-center {
+    max-width: 20px!important;
+    max-height: auto;
+}
+.list-history {
+    font-family: inherit;
+    list-style-type: none;
+}
+
+.list-history_item {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.list-history_item_first {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+}
+
+.list-history_item_first a {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    color: white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+}
+
+.list-history_item_first a:hover {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    background: white;
+    color: #595959;
+    border-bottom: 2px solid white;
+    padding: 15px 0;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+
+.list-history_item a {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+}
+
+.list-history_item a:hover {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    background: white;
+    color: #595959;
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+    display: inline-block;
+    padding: 15px 0;
+}
+.social-menu-icons {
+     color: white;
+     font-size: 30px;
+     padding-left: 10px
+}
+
+.social-menu-icons:hover {
+     color: #3e134d;
+     font-size: 30px;
+     padding-left: 10px
+}
+
+.top-twenty {
+    top: 15%;
+}
+
+.top-mid {
+    top: 31%;
+}
+
+.top-mid-two {
+    top: 36%;
+}
+
+.top-mid-two-alone {
+    top: 47%;
+}
+
+.top-middle-tittle {
+    top: 46%;
+}
+.mini-cart1 .mini-cart-link {
+    background: transparent;
+    color: white!important;
+    margin-top: -45px;
+    display: inherit;
+    margin-right: 150px;
+}
+
+}
+
+@media (min-width: 992px) {
+    
+    /********************* Header Home *********************/
+
+.header-home {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.home-menu-fixed {
+    width: 100%!important;
+    position: fixed;
+}
+
+.header-tienda-wrapper {
+    width: 95%!important;
+    margin: 20px auto 0 auto;
+}
+
+button#responsive-menu-button {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    float: right;
+    top: 4%!important;
+    background: transparent;
+}
+
+.responsive-menu-inner::before {
+    top: -10px!important;
+}
+
+.responsive-menu-inner::after {
+    top: 10px!important;
+}
+
+.first-section {
+    height: calc(100vh + 32px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+    padding-left: 0%;
+    z-index: 10;
+}
+
+.general-section {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+}
+
+/*********************Content Inside Sections *********************/
+
+.no-padding .col-sm-6 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+    .item-slider1 .banner-info{margin-top:40vh;}
+    
+   .copyright-left {
+        width: 49%;
+        float: left;
+    }
+    .copyright-right {
+        width: 49%;
+        float: left;
+        text-align: right;
+    }
+    .section-text-vertical-left {
+    color: white;
+    position: relative;
+    top: 36%;
+    border: 1px solid transparent;
+    padding: 0 8% 0 8%;
+}
+
+.title18 {
+    width: 60%;
+}
+
+.section-title-vertical-left {
+    color: white;
+    position: relative;
+    top: 55%;
+    font-weight: 800;
+    padding: 0 8% 0 16%;
+}
+
+.section-text-vertical-left p {
+    font-size: 12px;
+}
+
+.section-title {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.section-titlens {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 800;
+}
+
+
+.section-title-alone {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 800;
+    margin-top: -40px;
+}
+
+.section-text-vertical-right {
+    color: white;
+    position: relative;
+    top: 40%;
+    padding: 0 8% 0 0%;
+}
+
+.section-text-vertical-right-list {
+    color: white;
+    position: relative;
+    top: 40%;
+    padding: 0 8% 0 0;
+}
+
+.section-text-vertical-right p {
+    font-size: 12px;
+}
+
+.section-vertical-bottle {
+    color: white;
+    position: relative;
+    top: -180px;
+}
+
+.section-vertical-bottle img {
+    max-width: 180px;
+    max-height: auto;
+}
+
+.botle-center {
+    max-width: 120px!important;
+    max-height: auto;
+}
+.list-history {
+    font-family: inherit;
+    list-style-type: none;
+}
+
+.list-history_item {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.list-history_item_first {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+}
+
+.list-history_item_first a {
+    font-family: inherit;
+    width: 60%;
+    height: 100%;
+    color: white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+}
+
+.list-history_item_first a:hover {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    background: white;
+    color: #595959;
+    border-bottom: 2px solid white;
+    padding: 15px 0;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+
+.list-history_item a {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+}
+
+.list-history_item a:hover {
+    font-family: inherit;
+    width: 65%;
+    height: 100%;
+    background: white;
+    color: #595959;
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+    display: inline-block;
+    padding: 15px 0;
+}
+.social-menu-icons {
+     color: white;
+     font-size: 30px;
+     padding-left: 10px
+}
+
+.social-menu-icons:hover {
+     color: #3e134d;
+     font-size: 30px;
+     padding-left: 10px
+}
+
+.top-twenty {
+    top: 15%;
+}
+
+.top-mid {
+    top: 35%;
+}
+
+.top-mid-two {
+    top: 38%;
+}
+
+.top-mid-two-alone {
+    top: 47%;
+}
+
+.top-middle-tittle {
+    top: 46%;
+}
+.mini-cart1 .mini-cart-link {
+    background: transparent;
+    color: white!important;
+    margin-top: -45px;
+    display: inherit;
+    margin-right: 150px;
+}
+
+}
+
+@media (min-width: 1200px) {
+    
+    /********************* Header Home *********************/
+
+.header-home {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.vc_column-inner.vc_custom_1528126700094 {
+    width: 90%!important;
+}
+
+.home-menu-fixed {
+    width: 100%!important;
+    position: fixed;
+}
+
+.header-tienda-wrapper {
+    width: 95%!important;
+    margin: 20px auto 0 auto;
+}
+
+button #responsive-menu-button {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    float: right;
+    top: 4%!important;
+    background: transparent;
+}
+
+.title18 {
+    width: 60%;
+}
+
+.responsive-menu-inner::before {
+    top: -10px!important;
+}
+
+.responsive-menu-inner::after {
+    top: 10px!important;
+}
+    
+.first-section {
+    height: calc(100vh + 32px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+    padding-left: 0%;
+    z-index: 10;
+}
+
+.general-section {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inherit;
+}
+
+
+.botella-responsive {
+    width: 320px!important;
+    height: auto!important;
+}
+
+/*********************Content Inside Sections *********************/
+
+.no-padding .col-sm-6 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.item-slider1 .banner-info { 
+    margin-top:40vh;
+}
+    
+   .copyright-left {
+        width: 49%;
+        float: left;
+    }
+    .copyright-right {
+        width: 49%;
+        float: left;
+        text-align: right;
+    }
+
+
+.section-text-vertical-left {
+    color: white;
+    position: relative;
+    border: 1px solid transparent;
+    padding: 0 8% 0 16%;
+        top: 39%;
+}
+
+.section-title-vertical-left {
+    color: white;
+    position: relative;
+    top: 45%;
+    font-weight: 800;
+    padding: 0 8% 0 16%;
+}
+
+.section-text-vertical-nuestros-vinos {
+    color: white;
+    position: relative;
+    top: 45%;
+    font-weight: 800;
+    padding: 0 0% 0 16%;
+}
+
+.section-text-vertical-left p {
+    font-size: 16px;
+}
+
+.section-title {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.section-titlens {
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.section-title-alone {
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.section-text-vertical-right {
+    color: white;
+    position: relative;
+    top: 40%;
+    padding: 0 8%;
+}
+
+.section-text-vertical-right-list {
+    color: white;
+    position: relative;
+    top: 40%;
+    padding: 0 8%;
+}
+
+.section-text-vertical-right p {
+    font-size: 16px;
+}
+
+.section-vertical-bottle {
+    color: white;
+    position: relative;
+    top: -230px;
+}
+
+.quienes-margin-top {
+    margin-top:10%;
+}
+
+.quienes-margin-top-50 {
+    margin-top: -50px;
+}
+
+.botle-center {
+    max-width: 150px!important;
+    max-height: auto;
+}
+.list-history {
+    font-family: inherit;
+    list-style-type: none;
+}
+
+.list-history_item {
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.list-history_item_first {
+    font-family: inherit;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.list-history_item_first a:hover {
+    font-family: inherit;
+    width: 60%;
+    max-width: 60%;
+    min-width: 60%;
+    height: 100%;
+    background: white;
+    color: #595959;
+    border-bottom: 2px solid white;
+    padding: 15px 0;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+
+.list-history_item a {
+    font-family: inherit;
+    width: 60%;
+    max-width: 60%;
+    min-width: 60%;
+    height: 100%;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: 200;
+}
+
+.list-history_item a:hover {
+    font-family: inherit;
+    width: 60%;
+    max-width: 60%;
+    min-width: 60%;
+    height: 100%;
+    background: white;
+    color: #595959;
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.social-menu-icons {
+     color: white;
+     font-size: 30px;
+     padding-left: 10px
+}
+
+.social-menu-icons:hover {
+     color: #3e134d;
+     font-size: 30px;
+     padding-left: 10px
+}
+
+.top-twenty {
+    top: 15%;
+}
+
+.top-vinedos {
+    top: 27%;
+}
+
+.top-vinedos-batuco {
+    top: 33%;
+}
+
+.top-mid {
+    top: 35%;
+}
+
+.top-mid-two {
+    top: 38%;
+}
+
+.top-mid-two-alone {
+    top: 47%;
+}
+
+.top-middle-tittle {
+    top: 46%;
+}
+.mini-cart1 .mini-cart-link {
+    background: transparent;
+    color: white!important;
+    margin-top: -45px;
+    display: inherit;
+    margin-right: 150px;
+}
+
+}
+
+.jt__member-description{
+	padding: 20px !important;
+}
+
+.jt__team-item.two_per_row, .jt__team-item.three_per_row, .jt__team-item.four_per_row, .jt__team-item.five_per_row{
+	margin-right: 0;
+}
+
+a.link-hotel:hover{
+	font-weight: 600 !important;
+}
+
+.img-news img{	
+	height: 150px !important;
+	width: 150px !important;
+	margin: 20px !important;
+}
+
+.awards-img img{
+	width: 60%;
+    margin-top: 10%;
+}
+
+.brands-img{
+	width: 150px !important;
+    margin-left: 10% !important;
+}

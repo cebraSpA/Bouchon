@@ -1,0 +1,9 @@
+div.upl-list form, div.upl-list p { margin-bottom: 1em; }
+div.upl-list form img { display: inline; padding-left: 1em; padding-right: 1em; box-shadow: none; vertical-align: middle; border: 0 none; }
+div.upl-list ul { list-style: outside none none; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+div.upl-list ul li { overflow: hidden; margin: 0 0 1.5em; }
+div.upl-list ul li:last-child { margin-bottom: 0; }
+#upl-list-1481 ul li img { width: 75px; height: 75px; display: inline; float: left; margin: 0px 0px 0px 0px; }
+#upl-list-1481 ul li { margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; }
+#upl-list-1481 ul li div { margin-left: 75px; }
+#upl-list-1481 ul li div.upl-post-thumbnail { margin-left: 0; }
